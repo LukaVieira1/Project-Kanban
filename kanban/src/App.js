@@ -1,8 +1,11 @@
-import './App.css';
+import "./App.css";
+import CardInside from "./components/Card-Inside/Card";
 
 function App() {
   return (
-    <div>Working</div>
+    <div background="black">
+      <CardInside>uashd</CardInside>
+    </div>
   );
 }
 
