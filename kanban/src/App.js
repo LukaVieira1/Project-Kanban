@@ -1,8 +1,12 @@
 import './App.css';
+import Background from './components/Background/Background';
+import CardOutside from './components/CardOutside/CardOutside';
 
 function App() {
   return (
-    <div>Working</div>
+    <Background>
+      <CardOutside> </CardOutside>
+    </Background>
   );
 }
 

@@ -1,0 +1,12 @@
+.card-blue {
+  border-top: 4px solid #50A2BC;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: #59B4D1;
+  width: 300px;
+  margin-top: 43px;
+}
+
+.cardOutside-title {
+  margin: 0;
+}
