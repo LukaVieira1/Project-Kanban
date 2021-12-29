@@ -4,7 +4,9 @@ import CardInside from "./components/Card-Inside/Card";
 function App() {
   return (
     <div background="black">
-      <CardInside>uashd</CardInside>
+      <CardInside person="man" genre="Label" status="To-Do">
+        Christmas Banners
+      </CardInside>
     </div>
   );
 }

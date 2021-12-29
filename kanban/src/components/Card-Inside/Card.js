@@ -1,11 +1,14 @@
 import "./Card.css";
 
 const CardInside = (props) => {
-  const { children } = props;
+  const { children, person, genre, status } = props;
   return (
-    <div class="cardInside">
-      <p>{children}</p>
-      <div></div>
+    <div className="cardInside">
+      <p className="task">{children}</p>
+      <div className="underTask">
+        <img className={`${person}`} alt=""></img>
+        <p className={`genre__${status}`}>{`${genre}`}</p>
+      </div>
     </div>
   );
 };

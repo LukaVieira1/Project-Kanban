@@ -1,17 +1,89 @@
 .cardInside {
   width: 280px;
   height: 81px;
-  background: aquamarine;
+  background: grey;
   border-radius: 4px;
   padding: 15px 10px 15px 10px;
   margin-top: 10px;
   display: flex;
+  flex-direction: column;
 }
 
-p {
+.task {
   line-height: 21px;
   font-size: 14px;
   letter-spacing: -0.02em;
   color: #171717;
   margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.underTask {
+  display: flex;
+}
+
+.woman {
+  background-image: url("./Woman.png");
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+
+.man {
+  background-image: url("./Man.png");
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+
+.genre__To-Do {
+  margin: 0 0 0 0;
+  font-size: 10px;
+  color: white;
+  height: 10px;
+  letter-spacing: -0.02em;
+  font-weight: bold;
+  padding: 5px 4px 5px 4px;
+  background-color: #59b4d1;
+  border-radius: 2px;
+  align-self: center;
+}
+
+.genre__In-Progress {
+  margin: 0 0 0 0;
+  font-size: 10px;
+  color: white;
+  height: 10px;
+  letter-spacing: -0.02em;
+  font-weight: bold;
+  padding: 5px 4px 5px 4px;
+  background-color: #d0935a;
+  border-radius: 2px;
+  align-self: center;
+}
+
+.genre__Review {
+  margin: 0 0 0 0;
+  font-size: 10px;
+  color: white;
+  height: 10px;
+  letter-spacing: -0.02em;
+  font-weight: bold;
+  padding: 5px 4px 5px 4px;
+  background-color: #945ad1;
+  border-radius: 2px;
+  align-self: center;
+}
+
+.genre__Done {
+  margin: 0 0 0 0;
+  font-size: 10px;
+  color: white;
+  height: 10px;
+  letter-spacing: -0.02em;
+  font-weight: bold;
+  padding: 5px 4px 5px 4px;
+  background-color: #59d090;
+  border-radius: 2px;
+  align-self: center;
 }
