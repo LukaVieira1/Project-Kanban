@@ -1,4 +1,6 @@
 main {
+  padding-right: 25px;
+  padding-left: 60px;
   padding-top: 20px;
   height: 100vh;
   background-color: #e1e8ed;
@@ -8,6 +10,3 @@ main {
   background-size: contain;
 }
 
-.title-bg {
-  margin-left: 60px;
-}

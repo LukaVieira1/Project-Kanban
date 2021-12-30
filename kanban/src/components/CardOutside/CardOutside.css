@@ -1,4 +1,5 @@
 .card-blue {
+  margin-right: 35px;
   border-top: 4px solid #50A2BC;
   border-radius: 4px;
   padding: 10px;
@@ -7,6 +8,57 @@
   margin-top: 43px;
 }
 
-.cardOutside-title {
-  margin: 0;
+.card-brown {
+  margin-right: 35px;
+  border-top: 4px solid #BB8451;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: #D0935A;
+  width: 300px;
+  margin-top: 43px;
 }
+
+.card-purple {
+  margin-right: 35px;
+  border-top: 4px solid #8551BC;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: #945AD1;
+  width: 300px;
+  margin-top: 43px;
+}
+
+.card-green {
+  margin-right: 35px;
+  border-top: 4px solid #50BB82;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: #59D090;
+  width: 300px;
+  margin-top: 43px;
+}
+
+.img-title{
+  display: flex;
+  vertical-align: middle;
+  gap: 10px
+}
+
+.cardOutside-title-white {
+  color: white;
+  margin: 0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18.75px;
+  letter-spacing: -2%;
+}
+
+.cardOutside-title-black {
+  color: black;
+  margin: 0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18.75px;
+  letter-spacing: -2%;
+}
+
