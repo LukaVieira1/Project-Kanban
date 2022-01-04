@@ -6,7 +6,7 @@ const CardInside = (props) => {
     <div className="cardInside">
       <p className="task">{children}</p>
       <div className="underTask">
-        <img className={`${person}`} alt=""></img>
+        <img className="person" src={person} alt=""></img>
         <p className={`genre__${status}`}>{`${genre}`}</p>
       </div>
     </div>
