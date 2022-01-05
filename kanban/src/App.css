@@ -1,6 +1,3 @@
-body {
-  background-color: black;
-}
 
 a {
   line-height: 21px;
@@ -10,4 +7,9 @@ a {
   margin-bottom: 10px;
   font-weight: bold;
   font-family: "Roboto", sans-serif;
+}
+
+.outside-cards {
+  display: flex;
+  justify-content: space-between;
 }
