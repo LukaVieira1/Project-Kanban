@@ -1,4 +1,5 @@
 .card-blue {
+  height: fit-content;
   margin-right: 35px;
   border-top: 4px solid #50A2BC;
   border-radius: 4px;
@@ -9,6 +10,7 @@
 }
 
 .card-brown {
+  height: fit-content;
   margin-right: 35px;
   border-top: 4px solid #BB8451;
   border-radius: 4px;
@@ -19,6 +21,7 @@
 }
 
 .card-purple {
+  height: fit-content;
   margin-right: 35px;
   border-top: 4px solid #8551BC;
   border-radius: 4px;
@@ -29,6 +32,7 @@
 }
 
 .card-green {
+  height: fit-content;
   margin-right: 35px;
   border-top: 4px solid #50BB82;
   border-radius: 4px;
