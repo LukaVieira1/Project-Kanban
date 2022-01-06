@@ -1,51 +1,55 @@
 .card-blue {
   height: fit-content;
   margin-right: 35px;
-  border-top: 4px solid #50A2BC;
+  border-top: 4px solid #50a2bc;
   border-radius: 4px;
   padding: 10px;
-  background-color: #59B4D1;
+  background-color: #59b4d1;
   width: 300px;
   margin-top: 43px;
+  height: fit-content;
 }
 
 .card-brown {
   height: fit-content;
   margin-right: 35px;
-  border-top: 4px solid #BB8451;
+  border-top: 4px solid #bb8451;
   border-radius: 4px;
   padding: 10px;
-  background-color: #D0935A;
+  background-color: #d0935a;
   width: 300px;
   margin-top: 43px;
+  height: fit-content;
 }
 
 .card-purple {
   height: fit-content;
   margin-right: 35px;
-  border-top: 4px solid #8551BC;
+  border-top: 4px solid #8551bc;
   border-radius: 4px;
   padding: 10px;
-  background-color: #945AD1;
+  background-color: #945ad1;
   width: 300px;
   margin-top: 43px;
+  height: fit-content;
 }
 
 .card-green {
   height: fit-content;
   margin-right: 35px;
-  border-top: 4px solid #50BB82;
+  border-top: 4px solid #50bb82;
   border-radius: 4px;
   padding: 10px;
-  background-color: #59D090;
+  background-color: #59d090;
   width: 300px;
   margin-top: 43px;
+  height: fit-content;
 }
 
-.img-title{
+.img-title {
   display: flex;
   vertical-align: middle;
-  gap: 10px
+  gap: 10px;
 }
 
 .cardOutside-title-white {
@@ -65,4 +69,3 @@
   line-height: 18.75px;
   letter-spacing: -2%;
 }
-
