@@ -4,10 +4,15 @@ main {
   padding-left: 60px;
   padding-top: 20px;
   height: 100vh;
+  box-sizing: border-box;
   background-color: #e1e8ed;
   background-image: url(./Home.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
+  background-attachment: fixed;
+  min-width: 100vw;
+  overflow: scroll;
+  display: table;
 }
 
